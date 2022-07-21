@@ -1,6 +1,6 @@
 # Unnamed
 
-[Unnamed](https://www.example.com) is an fastest scripting language, empowered to build powerful automation.
+A human-readable text-based scripting language, empowering them to build powerful automation.
 
 ## Get Started
 
