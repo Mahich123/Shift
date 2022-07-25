@@ -1,7 +1,5 @@
 # mylang (WIP)
 
-## Get Started
-
 ## License / Rights
 (c) Copyright 2020 - present, Sijey. All rights reserved.
 
