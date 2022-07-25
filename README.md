@@ -11,12 +11,29 @@ None Type:	NoneType
 
 ## Get Started
 
-- Let's create a variable and print it.
+- Create a variable and print it.
 
 ```python
 msg = "Hello, World!"
 
 print(msg)
+```
+
+- Create a function and return any.
+
+```python
+def Message():
+    return "Hello, World!"
+```
+
+- Create a sum and print it.
+
+```python
+a = 3
+b = 4
+c = a + b * 2
+
+print(c)
 ```
 
 ## License / Rights
