@@ -1,29 +1,35 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "strings"
+)
 
-const DIGITS = "0123456789"
-const ALPABETS = "abcdefghijklmnopqrstuvwxyz"
+const DIGITS = "0123456789";
+const ALPABETS = "abcdefghijklmnopqrstuvwxyz";
 
-func Lexer() string {
+var code = "print(\"Hello, World!\")";
 
-    var tok string = ""
-    var chars = code.split("")
+func Lexer() int {
 
-    // for var i = 0;i < 
+    var tok string = "";
+    var chars = strings.Split(code, "");
 
-        tok += char
-        if (tok == " ") {
-            tok  = ""
+    for i := 0;i < len(chars);i++ {
+        tok += chars[i];
+        
+        // fmt.Println(tok)
+
+        if tok == " " {
+            tok  = "";
+        } else if tok == "print" {
+            fmt.Println("TT_PRINT was found!");
+            tok = "";
         }
-        else if (tok == "print") {
-            console.log("TT_PRINT was found!")
-            tok = ""
-        }
-    })
 
-	return "Hello World"
+    }
 
+    return 0;
 }
 
 func main() {
