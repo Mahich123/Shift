@@ -1,2 +1,0 @@
-https://hashnode.com/post/creating-your-own-scripting-language-where-should-one-start-ciudleyz70jksvy532q1y4uk7
-http://www.ecma-international.org/ecma-262/6.0/
