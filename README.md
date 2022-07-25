@@ -1,3 +1,14 @@
+## Data Types
+
+```
+Text Type:	str
+Numeric Types:	int, float
+Sequence Types:	list
+Mapping Type:	dict
+Boolean Type:	bool
+None Type:	NoneType
+```
+
 ## Get Started
 
 - Let's create a variable and print it.
