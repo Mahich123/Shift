@@ -2,14 +2,6 @@
 
 ## Get Started
 
-- Hello, World! program.
-
-```python
-msg = "Hello, World!"
-
-print(msg)
-```
-
 ## License / Rights
 (c) Copyright 2020 - present, Sijey. All rights reserved.
 
