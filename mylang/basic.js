@@ -1,11 +1,22 @@
-const {readFile} = require("fs")
+const { readFile } = require("fs")
 
 const DIGITS = "0123456789"
 const ALPABETS = "abcdefghijklmnopqrstuvwxyz"
-const DECIMAL = "0.00"
 
 function Lexer(code) {
-    return
+    let tok = ""
+    let chars = code.split("")
+
+    chars.forEach(char => {
+        tok += char
+        if (tok == " ") {
+            tok  = ""
+        }
+        else if (tok == "print") {
+            console.log("TT_PRINT was found!")
+            tok = ""
+        }
+    })
 }
 
 function Token(code) {
@@ -15,12 +26,13 @@ function Token(code) {
         None : "TT_None",
         def : "TT_DEF",
         return : "TT_RETURN",
+        print : "TT_PRINT",
     }
-    
+
     return tt
 }
 
-readFile("src/test.txt", {encoding : "utf-8"}, (err, f) => {
-    if (f) console.log(f)
-    if (err) console.log(err)
+readFile("test.txt", {encoding : "utf-8"}, (e, f) => {
+    if (f) Lexer(f)
+    if (e) console.error(e)
 })
