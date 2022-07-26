@@ -8,6 +8,8 @@
 print("Hello, World")
 ```
 
+That's all for now 😂
+
 ## License / Rights
 **`(c) Copyright 2020 - present, Sijey. All rights reserved.`**
 
