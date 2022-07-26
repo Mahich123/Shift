@@ -1,6 +1,6 @@
 # mylang (WIP)
 
-[![written language](https://img.shields.io/badge/Written_Language-Golang-00ADD8?style=for-the-badge&logo=go)](https://go.dev/)
+[![written language](https://img.shields.io/badge/Written_Language-Golang-00ADD8?style=flat-square&logo=go)](https://go.dev/)
 
 ## Get Basic Syntax
 
