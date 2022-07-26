@@ -21,17 +21,32 @@ func Lexer(code string) int {
         tok += chars[i];
 
         // fmt.Println(tok)
+        // fmt.Println(chars[i])
 
         if tok == " " {
             tok  = "";
         } else if tok == "print" {
-            types = append(types, "TT_PRINT")
+            types = append(types, "TT_PRINT");
             tok = "";
-        } else if tok == "(" {
-            types = append(types, "TT_LPAREN")
+        } else if chars[i] == "(" {
+            types = append(types, "TT_LPAREN");
             tok = "";
-        } else if tok == ")" {
-            types = append(types, "TT_RPAREN")
+        } else if chars[i] == ")" {
+            types = append(types, "TT_RPAREN");
+            tok = "";
+        } else if chars[i] == "\"" {
+            types = append(types, "TT_QUOTES");
+            tok = "";
+        } else if strings.ContainsAny(DIGITS, tok) == true {
+            if chars[1 -1] == "\"" {
+                types = append(types, "TT_STR");
+                tok = "";
+            } else {
+                types = append(types, "TT_INT");
+                tok = "";
+            }
+        } else if strings.ContainsAny(ALPABETS, tok) == true {
+            types = append(types, "TT_STR");
             tok = "";
         }
     }
