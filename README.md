@@ -4,7 +4,7 @@
 
 ## Get Basic Syntax
 
-![test](snippets/test.svg)
+[![test](snippets/test.svg)](https://github.com/sijey-praveen/mylang/raw/Sijey/snippets/test.svg)
 
 That's all for now 😂
 
