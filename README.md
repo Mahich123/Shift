@@ -2,6 +2,8 @@
 
 [![written language](https://img.shields.io/badge/Written_Language-Golang-00ADD8?style=flat-square&logo=go)](https://go.dev/)
 
+![test](snippets/test.svg)
+
 ## Get Basic Syntax
 
 ```py
