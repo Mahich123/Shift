@@ -1,5 +1,5 @@
 # mylang (WIP)
-An Open-source Interpreted Programming Language. Developed for general purpose by Sijey. Written in Go Programming language.
+An Open-source Interpreted and General Purpose Programming Language with python like syntax developed by Sijey. Written in Go Programming language.
 
 ## Get Basic Syntax
 
