@@ -1,6 +1,6 @@
 # mylang (WIP)
 
-An Open-Source Interpreted, General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/).
+An Open-Source Interpreted, Easy to Use General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/).
 
 [![](https://img.shields.io/badge/Made_with-Golang-blue?logo=go&style=flat-square)](https://go.dev/)
 [![](https://img.shields.io/badge/License-Creative_Commons-ed9321?logo=creativecommons&style=flat-square)](https://creativecommons.org/)
