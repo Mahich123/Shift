@@ -1,13 +1,6 @@
 # mylang (WIP)
-An Open-source Interpreted and General Purpose Programming Language with python like syntax developed by Sijey. Written in Go Programming language.
-
-## Get Basic Syntax
+An Open-Source Interpreted, General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/). Licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/). Founded and Developed by Sijey in 2022.
 
 ![Loading Image...](svg/hello-world-snippet.svg)
 
-The `print()` is a built-in function that displays a message on the screen. In this example, it’ll show the message 'Hello, World!'.
-
-## License / Rights
-**`(c) Copyright 2020 - present, Sijey. All rights reserved.`**
-
-mylang is licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
+**(c) Copyright 2020 - present, Sijey. All rights reserved.**
