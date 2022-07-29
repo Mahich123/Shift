@@ -1,7 +1,5 @@
 # mylang (WIP)
-An Open-source Interpreted Programming Language. Developed for general purpose by Sijey.
-
-[![written language](svg/go.svg)](https://go.dev/)
+An Open-source Interpreted Programming Language. Developed for general purpose by Sijey. Written in Go Programming language.
 
 ## Get Basic Syntax
 
