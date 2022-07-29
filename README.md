@@ -5,7 +5,7 @@ An Open-source Interpreted Programming Language. Developed for general purpose b
 
 [![test](svg/hello-world-snippet.svg)]()
 
-That's all for now 😂
+The `print()` is a built-in function that displays a message on the screen. In this example, it’ll show the message 'Hello, World!'.
 
 ## License / Rights
 **`(c) Copyright 2020 - present, Sijey. All rights reserved.`**
