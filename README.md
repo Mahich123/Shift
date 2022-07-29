@@ -19,6 +19,14 @@ An Open-Source Interpreted, Easy to Use General-Purpose Programming Language Wri
 go build basic.go
 ```
 
+## Example
+
+- Hello world program.
+
+```py
+print("Hello, World!")
+```
+
 ## License
 
 **(c) Copyright 2020 - present, Sijey. All rights reserved.**
