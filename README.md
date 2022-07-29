@@ -3,7 +3,7 @@ An Open-source Interpreted and General Purpose Programming Language with python 
 
 ## Get Basic Syntax
 
-![Loading Image...](svg/hello-world-snippet.svg)]
+![Loading Image...](svg/hello-world-snippet.svg)
 
 The `print()` is a built-in function that displays a message on the screen. In this example, it’ll show the message 'Hello, World!'.
 
