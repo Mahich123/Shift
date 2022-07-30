@@ -7,10 +7,4 @@ An Open-Source Interpreted, General-Purpose Programming Language Written in the 
 [![](https://img.shields.io/badge/GitHub-sijey--praveen/Shift-ebebeb?logo=github&style=flat-square)](https://github.com/sijey-praveen/Shift/)
 [![](https://img.shields.io/badge/Discord-sijey%239115-5865f2?logo=discord&style=flat-square)](https://discordapp.com/users/856839376436985876)
 
-## Example
-
-- Hello world program.
-
-```py
-print("Hello, World!")
-```
+![](https://i.imgur.com/PWApeD1.png)
