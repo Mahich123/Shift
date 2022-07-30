@@ -1,6 +1,6 @@
-# [Shift](https://sijey-praveen.github.io/Shift/) (WIP)
+# Shift (WIP)
 
-An Open-Source Interpreted, General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/). Founded and developed by [Sijey Praveen](https://sijey-praveen.github.io/). Licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
+Shift is an open-source interpreted programming language made for general-purpose written in the [Go Programming Language](https://go.dev/). Founded and developed by [Sijey Praveen](https://sijey-praveen.github.io/), The Shift source files are licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
 
 [![](https://img.shields.io/badge/Made_with-Golang-blue?logo=go&style=flat-square)](https://go.dev/)
 [![](https://img.shields.io/badge/License-Creative_Commons-ed9321?logo=creativecommons&style=flat-square)](https://creativecommons.org/)
