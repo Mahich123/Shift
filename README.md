@@ -9,4 +9,4 @@ Shift is an open-source interpreted programming language made for general-purpos
 
 ![](https://i.imgur.com/PWApeD1.png)
 
-Image made with [10015.io](https://10015.io/tools/code-to-image-converter)
+<p align="center">Image made with <a rel="nofollow" target="_blank" href="https://10015.io/tools/code-to-image-converter">10015.io</a></p>
