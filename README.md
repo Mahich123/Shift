@@ -1,6 +1,6 @@
 # Shift (WIP)
 
-An Open-Source Interpreted, Easy to Use General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/).
+An Open-Source Interpreted, Easy to Use, Beginner friendly General-Purpose Programming Language Written in the [Go Programming Language](https://go.dev/). Founded and developed by [Sijey Praveen](https://sijey-praveen.github.io/). Licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
 
 [![](https://img.shields.io/badge/Made_with-Golang-blue?logo=go&style=flat-square)](https://go.dev/)
 [![](https://img.shields.io/badge/License-Creative_Commons-ed9321?logo=creativecommons&style=flat-square)](https://creativecommons.org/)
@@ -14,9 +14,3 @@ An Open-Source Interpreted, Easy to Use General-Purpose Programming Language Wri
 ```py
 print("Hello, World!")
 ```
-
-## License
-
-**(c) Copyright 2020 - present, Sijey. All rights reserved.**
-
-Licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
