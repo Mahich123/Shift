@@ -9,20 +9,23 @@ import (
 
 const DIGITS = "0123456789";
 const ALPABETS = "abcdefghijklmnopqrstuvwxyz";
+const SYMBOLS = "";
 
 func Lexer(code string) []string {
 
     var tok string = "";
     var chars = strings.Split(code, "");
     var types = [] string {};
-    var __str string = ""
-    var st int = 0
+    var __str string = "";
+    var __int string = "";
+    var sst int = 0;
+    var ist int = 0;
 
     for i := 0;i < len(chars);i++ {
         tok += chars[i];
 
         if chars[i] == " " {
-            if st == 1 {
+            if sst == 1 {
                 __str += chars[i]
             } else {
                 tok  = "";
@@ -30,30 +33,39 @@ func Lexer(code string) []string {
             }
         } else if tok == "\n" {
             tok = "";
-        } else if tok == "print" && st == 0 {
+        } else if tok == "print" && sst == 0 {
             types = append(types, "TT_PRINT");
             tok = "";
-        } else if chars[i] == "(" && st == 0 {
+        } else if chars[i] == "(" && sst == 0 {
             types = append(types, "TT_LPAREN");
             tok = "";
-        } else if chars[i] == ")" && st == 0 {
+        } else if chars[i] == ")" && sst == 0 {
+            if ist == 1 {
+                types = append(types, "TT_INT", __int);
+                ist = 0
+            }
             types = append(types, "TT_RPAREN");
             tok = "";
         } else if chars[i] == "\"" {
-            if st == 0 {
-                st = 1;
-            } else if st == 1 {
+            if sst == 0 {
+                sst = 1;
+            } else if sst == 1 {
                 types = append(types, "TT_STR:", __str);
-                st = 0;
+                sst = 0;
                 __str = "";
             }
             types = append(types, "TT_QUOTES");
             tok = "";
-        } else if st == 1 {
+        } else if sst == 1 {
             __str += chars[i];
             tok = "";
+        } else if sst == 0 && strings.ContainsAny(DIGITS, tok) == true {
+            ist = 1
+            __int += chars[i];
         }
     }
+
+    // fmt.Println(types)
 
     return types;
 }
@@ -65,6 +77,8 @@ func parser(token [] string) int {
             if token[i + 1] == "TT_LPAREN" && token[len(token) - 1] == "TT_RPAREN" {
                 if token[i + 2] == "TT_QUOTES" && token[len(token) - 2] == "TT_QUOTES" {
                     fmt.Println(token[i + 4])
+                } else if token[i + 2] == "TT_INT" {
+                    fmt.Println(token[i + 3])
                 }
             }
         }
