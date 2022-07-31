@@ -26,6 +26,7 @@ func Lexer(code string) []string {
                 __str += chars[i]
             } else {
                 tok  = "";
+
             }
         } else if tok == "\n" {
             tok = "";
