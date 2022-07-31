@@ -1,10 +1,10 @@
 package main
 
 import (
-    "fmt"
-    "strings"
-    "io/ioutil"
-    "os"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"strings"
 )
 
 const DIGITS = "0123456789";
@@ -21,9 +21,6 @@ func Lexer(code string) []string {
     for i := 0;i < len(chars);i++ {
         tok += chars[i];
 
-        // fmt.Println(tok)
-        // fmt.Println(chars[i])
-
         if chars[i] == " " {
             if st == 1 {
                 __str += chars[i]
@@ -32,13 +29,13 @@ func Lexer(code string) []string {
             }
         } else if tok == "\n" {
             tok = "";
-        } else if tok == "print" {
+        } else if tok == "print" && st == 0 {
             types = append(types, "TT_PRINT");
             tok = "";
-        } else if chars[i] == "(" {
+        } else if chars[i] == "(" && st == 0 {
             types = append(types, "TT_LPAREN");
             tok = "";
-        } else if chars[i] == ")" {
+        } else if chars[i] == ")" && st == 0 {
             types = append(types, "TT_RPAREN");
             tok = "";
         } else if chars[i] == "\"" {
@@ -57,20 +54,15 @@ func Lexer(code string) []string {
         }
     }
 
-    // fmt.Println(types);
-    // fmt.Println(__str);
-    
     return types;
 }
 
 func parser(token [] string) int {
-    // fmt.Println(token);
 
     for i := 0; i < len(token); i++ {
         if token[i] == "TT_PRINT" {
             if token[i + 1] == "TT_LPAREN" && token[len(token) - 1] == "TT_RPAREN" {
                 if token[i + 2] == "TT_QUOTES" && token[len(token) - 2] == "TT_QUOTES" {
-                    // fmt.Println("Found a print statement with value type string :)");
                     fmt.Println(token[i + 4])
                 }
             }
@@ -93,7 +85,10 @@ func readFile(path string) string {
 
 func main() {
     if len(os.Args) > 1 {
-        parser(Lexer(readFile(os.Args[1])));
+        var lines = strings.Split(readFile(os.Args[1]), "\n");
+        for i := 0; i < len(lines); i++ {
+            parser(Lexer(lines[i]));
+        }
     } else {
         fmt.Println("version: 1.0");
     }
