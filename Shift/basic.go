@@ -24,8 +24,12 @@ func Lexer(code string) []string {
         // fmt.Println(tok)
         // fmt.Println(chars[i])
 
-        if tok == "\t" {
-            tok  = "";
+        if chars[i] == " " {
+            if st == 1 {
+                __str += chars[i]
+            } else {
+                tok  = "";
+            }
         } else if tok == "\n" {
             tok = "";
         } else if tok == "print" {
