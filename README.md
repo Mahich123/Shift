@@ -1,4 +1,3 @@
-[![Loading Image](https://img.shields.io/badge/License-Creative_Commons-ed9321?logo=creativecommons&style=social)](https://creativecommons.org/)
 [![Loading Image](https://img.shields.io/badge/GitHub-sijey--praveen/Shift-ebebeb?logo=github&style=social)](https://github.com/sijey-praveen/Shift/)
 [![Loading Image](https://img.shields.io/badge/Discord-sijey%239115-5865f2?logo=discord&style=social)](https://discordapp.com/users/856839376436985876)
 
