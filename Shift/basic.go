@@ -31,7 +31,7 @@ func Lexer(code string) []string {
                 tok  = "";
 
             }
-        } else if tok == "\n" {
+        } else if tok == "\n" && sst == 0 {
             tok = "";
         } else if chars[i] == "#" && sst == 0 {
             return types
