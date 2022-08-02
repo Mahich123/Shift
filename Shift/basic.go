@@ -33,6 +33,8 @@ func Lexer(code string) []string {
             }
         } else if tok == "\n" {
             tok = "";
+        } else if chars[i] == "#" && sst == 0 {
+            return types
         } else if tok == "print" && sst == 0 {
             types = append(types, "TT_PRINT");
             tok = "";
