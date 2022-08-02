@@ -1,7 +1,7 @@
 [![Loading Image](https://img.shields.io/badge/GitHub-sijey--praveen/Shift-ebebeb?logo=github&style=social)](https://github.com/sijey-praveen/Shift/)
 [![Loading Image](https://img.shields.io/badge/Discord-sijey%239115-5865f2?logo=discord&style=social)](https://discordapp.com/users/856839376436985876)
 [![Loading Image](https://img.shields.io/badge/YouTube-youtu.be/Qx_UXXwS6Gg-5865f2?logo=youtube&style=social)](https://youtu.be/Qx_UXXwS6Gg)
-[![Loading Image](https://img.shields.io/badge/dev.to-dev.to/Shift-5865f2?logo=devdotto&style=social)](https://dev.to/sijeypraveen/im-building-my-own-programming-language-447g)
+[![Loading Image](https://img.shields.io/badge/dev.to-dev.to/sijeypraveen-5865f2?logo=devdotto&style=social)](https://dev.to/sijeypraveen/im-building-my-own-programming-language-447g)
 
 # What is Shift?
 
