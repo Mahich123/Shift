@@ -60,6 +60,9 @@ func Lexer(code string) []string {
             __str += chars[i];
             tok = "";
         } else if sst == 0 && strings.ContainsAny(DIGITS, tok) == true {
+            if strings.ContainsAny(ALPABETS, tok) == true {
+                return types
+            }
             ist = 1
             __int += chars[i];
         }
