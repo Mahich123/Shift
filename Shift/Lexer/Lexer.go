@@ -22,20 +22,24 @@ func Lexer(code string) []string {
     for i := 0;i < len(chars);i++ {
         tok += chars[i];
 
+        switch tok {
+            case "print":
+                if sst == 0 {
+                    types = append(types, "TT_PRINT");
+                    tok = "";    
+                }
+        }
+
         if chars[i] == " " {
             if sst == 1 {
                 __str += chars[i]
             } else {
                 tok  = "";
-
             }
-        } else if tok == "\n" && sst == 0 {
+        } else if chars[i] == "\n" && sst == 0 {
             tok = "";
         } else if chars[i] == "#" && sst == 0 {
             return types
-        } else if tok == "print" && sst == 0 {
-            types = append(types, "TT_PRINT");
-            tok = "";
         } else if chars[i] == "(" && sst == 0 {
             types = append(types, "TT_LPAREN");
             tok = "";
@@ -59,8 +63,8 @@ func Lexer(code string) []string {
         } else if sst == 1 {
             __str += chars[i];
             tok = "";
-        } else if sst == 0 && strings.ContainsAny(DIGITS, tok) == true {
-            if strings.ContainsAny(ALPABETS, tok) == true {
+        } else if sst == 0 && strings.ContainsAny(DIGITS, tok) {
+            if strings.ContainsAny(ALPABETS, tok) {
                 return types
             }
             ist = 1
