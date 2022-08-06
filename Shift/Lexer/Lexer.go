@@ -69,6 +69,12 @@ func Lexer(code string) []string {
             }
             ist = 1
             __int += chars[i];
+        } else if sst == 0 && tok == "True" {
+            types = append(types, "TT_BOOLEAN", "True")
+            tok = "";
+        } else if sst == 0 && tok == "False" {
+            types = append(types, "TT_BOOLEAN", "False")
+            tok = "";
         }
     }
 
