@@ -28,4 +28,4 @@ You can find the documentation in the [`docs`](https://github.com/sijey-praveen/
 
 *Copyright (c) 2020 - present, Sijey. All rights reserved.*
 
-The source files are officially hosted on [GitHub](https://github.com/sijey-praveen/Shift/) by the Author and licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
+The source files of Shift are officially hosted on [GitHub](https://github.com/sijey-praveen/Shift/) by the Author and licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/).
