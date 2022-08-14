@@ -20,6 +20,10 @@ go build Shift/main.go
 
 You can find the documentation in the [`docs`](https://github.com/sijey-praveen/Shift/tree/Sijey/docs) directory or folder.
 
+## Report a bug?
+
+Great, go ahead and make an [issue](https://github.com/sijey-praveen/Shift/issues).
+
 ## License
 
 *Copyright (c) 2020 - present, Sijey. All rights reserved.*
