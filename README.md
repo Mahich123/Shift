@@ -1,6 +1,6 @@
 # What is Shift?
 
-Shift is an open-source interpreted programming language made for general-purpose. written in [Golang](https://go.dev/).
+Shift is an open-source interpreted programming language made for general-purpose programming currently implemented in [Golang](https://go.dev/).
 
 ## Download
 
@@ -11,8 +11,7 @@ The Shift is still under development, but you can build it from source.
 git clone https://github.com/sijey-praveen/Shift.git
 ```
 
-- Make sure you have installed the [Golang](https://go.dev/) before run this build command.
-
+- Make sure you have installed the [Golang](https://go.dev/). Run the following command to build it
 ```
 go build Shift/main.go
 ```
