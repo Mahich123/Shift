@@ -6,10 +6,9 @@
 
 The Shift language was founded & developed by [Sijey Praveen](https://github.com/sijey-praveen/), and the development started in July 2022. Currently, the language is implemented in [Golang](https://go.dev/).
 
-## Future Goals
+<!-- ## Future Goals
 
-- Implementation in high-level language.
-- Make it more convenient.
+- Make it more convenient. -->
 
 ## Development
 
