@@ -1,4 +1,4 @@
-# What is Shift?
+# Shift
 
 *Shift is an open-source interpreted programming language made for general-purpose programming.*
 
