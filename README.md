@@ -8,11 +8,8 @@
 # Comments can be used to make the code more readable.
 # Comments starts with a #.
 
-# variable declaration
-message = "Hello, World!"
-
 # The print() function prints a message onto the screen.
-print(message)
+print("Hello, World!")
 
 # output
 >>> Hello, World!
