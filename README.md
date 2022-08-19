@@ -1,6 +1,10 @@
-# Shift
+# What is Shift?
 
-*Shift is an open-source interpreted programming language made for general-purpose programming.*
+Shift is an open-source interpreted programming language.
+
+# Why Shift?
+
+I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
 
 ## Example
 
