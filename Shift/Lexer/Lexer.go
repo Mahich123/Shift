@@ -15,25 +15,15 @@ func Lexer(code string) []string {
     var chars = strings.Split(code, "");
     var types = []string {};
     var __str string = "";
-    var sst int = 0;
+	var sst int = 0;
 
-    for i := 0;i < len(chars);i++ {
+    for i := 0; i < len(chars); i++ {
         tok += chars[i];
 
         switch tok {
 		case "print":
 			if sst == 0 {
 				types = append(types, "TT_PRINT");
-				tok = "";    
-			}
-		case "True":
-			if sst == 0 {
-				types = append(types, "TT_BOOLEAN", "True");
-				tok = "";
-			}
-		case "False":
-			if sst == 0 {
-				types = append(types, "TT_BOOLEAN", "False");
 				tok = "";
 			}
         }
