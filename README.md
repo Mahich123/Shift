@@ -10,7 +10,7 @@ I'm developing this language for general-purpose programming with simple syntax 
 
 - [@sijey-praveen](https://github.com/sijey-praveen/)
 
-## Example
+## Example Program
 
 Here is a simple "hello world" program.
 
@@ -31,7 +31,7 @@ Hello, World!
 
 - Make it more convenient. -->
 
-## Building from source code
+## Building Shift from source code
 
 Install the Golang from the official [go.dev](https://go.dev/) website for your operating system.
 
@@ -49,6 +49,10 @@ cd Shift
 ```
 go build main.go
 ```
+
+## Report a issue?
+
+If you find any error, fault, or flaw, you can create an issue on GitHub and mention it.
 
 ## License
 
