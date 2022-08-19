@@ -10,28 +10,20 @@ I'm developing this language for general-purpose programming with simple syntax 
 
 - [@sijey-praveen](https://github.com/sijey-praveen/)
 
-## Example Program
+## Example
 
 Here is a simple "hello world" program.
 
-- Create a new file with any file extension, But `.shift` was recommended, and then enter and save the following code given below.
-
 ```py
+# The print() function print the object onto the screen.
 print("Hello, World!")
-```
-
-- The `print()` function prints a message onto the screen.
-- Execute the program, If everything is fine, you'll see the following message on the screen.
-
-```
-Hello, World!
 ```
 
 <!-- ## Future Goals
 
 - Make it more convenient. -->
 
-## Building Shift from source code
+## Building from source code
 
 Install **Go** from the official [go.dev](https://go.dev/) website for your operating system.
 
