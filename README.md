@@ -6,6 +6,10 @@ Shift is an open-source interpreted programming language.
 
 I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
 
+# Author
+
+- [@sijey-praveen](https://github.com/sijey-praveen/)
+
 ## Example
 
 ### This is a simple "hello world" program.
