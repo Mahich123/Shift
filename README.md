@@ -6,13 +6,13 @@ Shift is an open-source interpreted programming language.
 
 I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
 
-# Author
+## Author
 
 - [@sijey-praveen](https://github.com/sijey-praveen/)
 
 ## Example
 
-### This is a simple "hello world" program.
+Here is a simple "hello world" program.
 
 - Create a new file with any file extension, But `.shift` was recommended, and then enter and save the following code given below.
 
