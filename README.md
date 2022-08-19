@@ -4,15 +4,19 @@
 
 ## Example
 
+### This is a simple "hello world" program.
+
+- Create a new file with any file extension, But `.shift` was recommended, and then enter and save the following code given below.
+
 ```py
-# Comments can be used to make the code more readable.
-# Comments starts with a #.
-
-# The print() function prints a message onto the screen.
 print("Hello, World!")
+```
 
-# output
->>> Hello, World!
+- The `print()` function prints a message onto the screen.
+- Execute the program, If everything is fine, you'll see the following message on the screen.
+
+```
+Hello, World!
 ```
 
 <!-- ## Future Goals
