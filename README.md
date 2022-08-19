@@ -1,6 +1,6 @@
 # What is Shift?
 
-Shift is an open-source interpreted programming language written in [Go]().
+Shift is an open-source interpreted programming language written in [Go](https://go.dev/).
 
 # Why Shift?
 
