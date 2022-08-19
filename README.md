@@ -52,7 +52,7 @@ go build main.go
 
 ## Report a issue?
 
-If you find any error, fault, or flaw, you can create an issue on GitHub and mention it.
+If you find or face any errors, you can create an [issue](https://github.com/sijey-praveen/Shift/issues) on GitHub and mention them.
 
 ## License
 
