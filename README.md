@@ -1,8 +1,6 @@
-[![The Shift is currently under heavy development.](message.svg)](https://github.com/sijey-praveen/Shift/)
-
 # What is Shift?
 
-Shift is an open-source interpreted programming language written in [Go](https://go.dev/).
+Shift is an open-source interpreted programming language written in [Go](https://go.dev/), currently under heavy development.
 
 # Why Shift?
 
@@ -37,7 +35,7 @@ cd Shift
 
 - Run the following command to build it
 ```
-go build main.go
+go build
 ```
 
 ---
