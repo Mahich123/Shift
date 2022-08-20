@@ -8,6 +8,8 @@ Shift is an open-source interpreted programming language written in [Go](https:/
 
 I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
 
+---
+
 ## Example
 
 Here is a simple "hello world" program.
@@ -17,9 +19,7 @@ Here is a simple "hello world" program.
 print("Hello, World!")
 ```
 
-<!-- ## Future Goals
-
-- Make it more convenient. -->
+---
 
 ## Building from source code
 
@@ -40,9 +40,13 @@ cd Shift
 go build main.go
 ```
 
+---
+
 ## Report a issue?
 
 If you find or face any errors, you can create an [issue](https://github.com/sijey-praveen/Shift/issues) on GitHub and mention them.
+
+---
 
 ## License
 
