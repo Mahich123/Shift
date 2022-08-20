@@ -1,4 +1,4 @@
-[![The Shift is currently under heavy development.](message.svg)](https://github.com/sijey-praveen/Shift/)
+[![The Shift is currently under heavy development.](messag.svg)](https://github.com/sijey-praveen/Shift/)
 
 # What is Shift?
 
