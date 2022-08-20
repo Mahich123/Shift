@@ -1,3 +1,5 @@
+![](message.svg)
+
 # What is Shift?
 
 Shift is an open-source interpreted programming language written in [Go](https://go.dev/).
