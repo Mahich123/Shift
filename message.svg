@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="30px" width="320px">
-	<rect fill="#FFF2F2" height="30px" width="100%" stroke-width="1" stroke="#FF1E00" />
-	<rect fill="#FF1E00" height="30px" width="7" />
-	<text fill="#181818" x="15" y="20">The Shift is currently under heavy development.</text>
-</svg>
