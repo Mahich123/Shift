@@ -48,6 +48,6 @@ If you find or face any errors, you can create an [issue](https://github.com/sij
 
 ## License
 
-*Copyright (c) 2020 - present, Sijey. All rights reserved.*
+<!-- *Copyright (c) 2020 - present, Sijey. All rights reserved.* -->
 
 The Shift is distributed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/) by the Author.
