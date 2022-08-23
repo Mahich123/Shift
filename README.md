@@ -42,7 +42,7 @@ go build
 
 ## Report a issue?
 
-If you find or face any errors, you can create an [issue](https://github.com/sijey-praveen/Shift/issues) on GitHub and mention them.
+If you find any bugs, you can create an [issue](https://github.com/sijey-praveen/Shift/issues) on GitHub and mention them.
 
 ---
 
