@@ -2,6 +2,8 @@
 
 An open-source interpreted programming language written in [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
 
+Currently under heavy development.
+
 ### Why am i developing this language?
 
 I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
