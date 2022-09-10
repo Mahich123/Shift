@@ -1,27 +1,39 @@
-# Shift
+# Shift (WIP)
 
-An open-source interpreted programming language written in [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
+## Get Started
+An interpreted programming language designed and developed for general-purpose programming, with syntax similar to the English language. This language is not for production-level use. This language is implemented with [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
 
-Currently under heavy development.
+- Useful links
+  - [Building from source code](#building-from-source-code)
+  - [Documentation]()
 
-### Why am i developing this language?
-
-I'm developing this language for general-purpose programming with simple syntax similar to the English language, which makes programmers write programmes with fewer lines than compared to some other programming languages.
-
-### 
-
----
-
-## Example
-
-Here is a simple "hello world" program.
-
-```py
-# The print() function print the object onto the screen.
+### Write your first program
+- create a new `hello-world.shift` file and enter the following code and save the file
+```js
 print("Hello, World!")
 ```
 
----
+### Executing the program
+
+- open your terminal and type the following command
+```
+Shift hello-world.shift
+```
+- If everything is fine, you’ll see the following message on the screen
+```
+Hello, World!
+```
+
+## Build
+
+| OS/Architecture | Build |
+| :---: | :---: |
+| darwin/amd64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
+| darwin/arm64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
+| linux/amd64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
+| linux/arm64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
+| windows/amd64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
+| windows/arm64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
 
 ## Building from source code
 
@@ -41,5 +53,3 @@ cd Shift
 ```
 go build
 ```
-
-<!-- *Copyright (c) 2020 - present, Sijey. All rights reserved.* -->
