@@ -59,6 +59,6 @@ go build
 |   |   ├── Lexer.go
 │   ├── Parser
 |   |   ├── Parser.go
-│   ├── go.mod
-│   ├── main.go
+├── go.mod
+└── main.go
 ```
