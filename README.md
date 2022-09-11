@@ -49,3 +49,16 @@ cd Shift
 ```
 go build
 ```
+
+## Project structure
+
+```
+.
+├── Shift
+│   ├── Lexer
+|   |   ├── Lexer.go
+│   ├── Parser
+|   |   ├── Parser.go
+│   ├── go.mod
+│   ├── main.go
+```
