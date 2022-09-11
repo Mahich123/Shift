@@ -3,10 +3,6 @@
 ## Get Started
 An interpreted programming language designed and developed for general-purpose programming, with syntax similar to the English language. This language is not for production-level use. This language is implemented with [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
 
-- Useful links
-  - [Building from source code](#building-from-source-code)
-  - [Documentation]()
-
 ### Write your first program
 - create a new `hello-world.shift` file and enter the following code and save the file
 ```js
