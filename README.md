@@ -35,7 +35,7 @@ Hello, World!
 | windows/amd64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
 | windows/arm64 | ![passing](https://img.shields.io/badge/build-passing-brightgreen) |
 
-## Building from source code
+## Building instructions
 
 Install **Go** from the official [go.dev](https://go.dev/) website for your operating system.
 
