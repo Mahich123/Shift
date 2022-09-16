@@ -2,7 +2,7 @@
 
 ## Get Started
 
-An interpreted programming language designed and developed for general-purpose programming, with syntax similar to the English language. This language is not for production-level use. This language is implemented with [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
+An interpreted high-level programming language designed and developed for general-purpose programming. This language is not for production-level use. This language is implemented with [Go](https://go.dev/) and distributed under the [Creative Commons license](https://creativecommons.org/).
 
 ### Write your first program
 
