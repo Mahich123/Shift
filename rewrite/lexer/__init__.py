@@ -59,9 +59,33 @@ def Lexer(code:str):
             token.append("TT_INT")
             token.append(char)
             c = ""
+        elif char == ">" and sst == 0:
+            token.append("TT_GREATER")
+            c = ""
+        elif char == "<" and sst == 0:
+            token.append("TT_LESSER")
+            c = ""
+        elif c == "==" and sst == 0:
+            token.append("TT_EQUALTO")
+            c = ""     
+        elif c == ">=" and sst == 0:
+            token.append("TT_HIGHEQUAL")
+            c = ""     
+        elif c == "<=" and sst == 0:
+            token.append("TT_LESSEQUAL")
+            c = ""     
+        elif c == "True" and sst == 0:
+            token.append("TT_BOOLEAN")
+            token.append("True")
+            c = ""
+        elif c == "False" and sst == 0:
+            token.append("TT_BOOLEAN")
+            token.append("False")
+            c = ""
         else:
             if sst == 1:
                 __ += char
                 c = ""
         
     return token
+    
