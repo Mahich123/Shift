@@ -14,9 +14,7 @@ def Lexer(code:str):
         if c == "print" and sst == 0:
             token.append("TT_PRINT")
             c = ""
-
-
-        if char == " ":
+        elif char == " ":
             if sst == 1:
                 __ += char
                 c = ""
@@ -88,4 +86,3 @@ def Lexer(code:str):
                 c = ""
         
     return token
-    
