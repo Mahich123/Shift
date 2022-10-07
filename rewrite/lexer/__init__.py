@@ -1,6 +1,5 @@
 # lexer
 
-
 def Lexer(code: str):
     integer = "1234567890"
     chars: list = [*code]
@@ -10,22 +9,21 @@ def Lexer(code: str):
     sst: int = 0
 
     for char in chars:
-        c = char
+        c += char
 
         if c == "print" and sst == 0:
             token.append("TT_PRINT")
             c = ""
         elif char == " ":
             if sst == 1:
-                __ = char
-                c = ""
-            else:
                 pass
+            else:
+                c = ""
         elif char == '"':
             if sst == 1:
                 sst = 0
-                token.append("STR")
-                token.append(__)
+                token.append("TT_STR")
+                token.append(c[0:-1])
                 token.append("TT_QUOTES")
                 c = ""
             else:
@@ -42,7 +40,7 @@ def Lexer(code: str):
         elif char == ")" and sst == 0:
             token.append("TT_RPAREN")
             c = ""
-        elif char == " " and sst == 0:
+        elif char == "+" and sst == 0:
             token.append("TT_PLUS")
             c = ""
         elif char == "-" and sst == 0:
@@ -85,9 +83,5 @@ def Lexer(code: str):
         elif c == "<=" and sst == 0:
             token.append("TT_LTE")
             c = ""
-        else:
-            if sst == 1:
-                __ = char
-                c = ""
 
     return token
