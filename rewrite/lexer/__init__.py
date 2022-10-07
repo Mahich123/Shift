@@ -48,29 +48,32 @@ def Lexer(code:str):
             token.append("TT_MINUS")
             c = ""
         elif char == "*" and sst == 0:
-            token.append("TT_MULTIPLY")
+            token.append("TT_MUL")
             c = ""
         elif char == "/" and sst == 0:
-            token.append("TT_DIVIDE")
+            token.append("TT_DIV")
             c = ""
         elif char in integer and sst == 0:
             token.append("TT_INT")
             token.append(char)
             c = ""
         elif char == ">" and sst == 0:
-            token.append("TT_GREATER")
+            token.append("TT_GT")
             c = ""
         elif char == "<" and sst == 0:
-            token.append("TT_LESSER")
+            token.append("TT_LT")
             c = ""
         elif c == "==" and sst == 0:
-            token.append("TT_EQUALTO")
-            c = ""     
+            token.append("TT_EQ")
+            c = ""
+        elif c == "!=" and sst == 0:
+            token.append("TT_NE")
+            c = ""
         elif c == ">=" and sst == 0:
-            token.append("TT_HIGHEQUAL")
+            token.append("TT_GTE")
             c = ""     
         elif c == "<=" and sst == 0:
-            token.append("TT_LESSEQUAL")
+            token.append("TT_LTE")
             c = ""     
         elif c == "True" and sst == 0:
             token.append("TT_BOOLEAN")
