@@ -63,6 +63,15 @@ def Lexer(code:str):
         elif char == "<" and sst == 0:
             token.append("TT_LT")
             c = ""
+        elif char == "[" and sst = 0:
+            token.append("TT_LSQUARE")
+            c = ""
+        elif char == "]" and sst = 0:
+            token.append("TT_RSQUARE")
+            c = ""
+        elif char == "," and sst = 0:
+            token.append("TT_COMMA")
+            c = ""
         elif c == "==" and sst == 0:
             token.append("TT_EQ")
             c = ""
@@ -74,14 +83,6 @@ def Lexer(code:str):
             c = ""     
         elif c == "<=" and sst == 0:
             token.append("TT_LTE")
-            c = ""     
-        elif c == "True" and sst == 0:
-            token.append("TT_BOOLEAN")
-            token.append("True")
-            c = ""
-        elif c == "False" and sst == 0:
-            token.append("TT_BOOLEAN")
-            token.append("False")
             c = ""
         else:
             if sst == 1:
