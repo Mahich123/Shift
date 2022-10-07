@@ -5,7 +5,6 @@ def Lexer(code: str):
     chars: list = [*code]
     token: list = []
     c: str = ""
-    __: str = ""
     sst: int = 0
 
     for char in chars:
