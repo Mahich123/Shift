@@ -1,26 +1,27 @@
 # lexer
 
-def Lexer(code:str):
+
+def Lexer(code: str):
     integer = "1234567890"
-    chars : list = [*code]
-    token : list = []
-    c : str = ""
-    __ : str = ""
-    sst : int = 0
+    chars: list = [*code]
+    token: list = []
+    c: str = ""
+    __: str = ""
+    sst: int = 0
 
     for char in chars:
-        c  += char
+        c = char
 
         if c == "print" and sst == 0:
             token.append("TT_PRINT")
             c = ""
         elif char == " ":
             if sst == 1:
-                __ += char
+                __ = char
                 c = ""
             else:
                 pass
-        elif char == "\"":
+        elif char == '"':
             if sst == 1:
                 sst = 0
                 token.append("STR")
@@ -41,7 +42,7 @@ def Lexer(code:str):
         elif char == ")" and sst == 0:
             token.append("TT_RPAREN")
             c = ""
-        elif char == "+" and sst == 0:
+        elif char == " " and sst == 0:
             token.append("TT_PLUS")
             c = ""
         elif char == "-" and sst == 0:
@@ -63,13 +64,13 @@ def Lexer(code:str):
         elif char == "<" and sst == 0:
             token.append("TT_LT")
             c = ""
-        elif char == "[" and sst = 0:
+        elif char == "[" and sst == 0:
             token.append("TT_LSQUARE")
             c = ""
-        elif char == "]" and sst = 0:
+        elif char == "]" and sst == 0:
             token.append("TT_RSQUARE")
             c = ""
-        elif char == "," and sst = 0:
+        elif char == "," and sst == 0:
             token.append("TT_COMMA")
             c = ""
         elif c == "==" and sst == 0:
@@ -80,13 +81,13 @@ def Lexer(code:str):
             c = ""
         elif c == ">=" and sst == 0:
             token.append("TT_GTE")
-            c = ""     
+            c = ""
         elif c == "<=" and sst == 0:
             token.append("TT_LTE")
             c = ""
         else:
             if sst == 1:
-                __ += char
+                __ = char
                 c = ""
-        
+
     return token
