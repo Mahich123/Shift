@@ -1,6 +1,6 @@
 <h1 align="center">{ Shift }</h1>
 
-A basic programming language for general purpose programming made with [python.org](https://python.org/)
+A basic programming language for general purpose programming made with [python](https://python.org/)
 
 ## Process
 
