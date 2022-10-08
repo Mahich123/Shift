@@ -1,13 +1,10 @@
 <h1 align="center">{ Shift }</h1>
 
 A basic programming language for general purpose programming made with [python.org](https://python.org/)
-___
 
 ## Process
 
 - [ ] Currently I'm working on parser
-
-___
 
 ## Development
 
