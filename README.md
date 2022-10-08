@@ -1,6 +1,4 @@
-<h1 align="center">{Shift (WIP)}</h1>
-
-## About Shift
+<h1 align="center">{ Shift }</h1>
 
 A basic programming language for general purpose programming made with [python.org](https://python.org/)
 ___
@@ -74,5 +72,3 @@ go build
 ## Contributors
 
 ![Contributors](https://contributors-img.web.app/image?repo=cj-praveen/Shift) 
-## Creator : 
-<a href="https://github.com/cj-praveen"><h2>Sijey Praveen</h2></a>
